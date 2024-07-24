@@ -1,5 +1,24 @@
 @import 'variables';
 
-h1 {
-    color: $primary-color;
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.main {
+  width: calc(100% - 100px);
 }
